@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+
+java -jar ~/source/openapi-generator/modules/openapi-generator-cli/target/openapi-generator-cli.jar generate -i https://billing.api.p7m.de/v1/api/api.json -g rust -o . -p packageName=p7m-billing
